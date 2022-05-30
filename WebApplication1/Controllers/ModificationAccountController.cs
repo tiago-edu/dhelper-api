@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers
         public async Task<object> Change([FromBody] Usuario user)
         {
 
-           DHelperEntities entitie = new DHelperEntities();
+           DHelperDB entitie = new DHelperDB();
 
             try
             {
