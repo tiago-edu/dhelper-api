@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public async Task<object> Register([FromBody] Usuario user)
         {
-            DHelperEntities entities = new DHelperEntities();
+            DHelperDB entities = new DHelperDB();
 
             var usuario = new Usuario
             {
